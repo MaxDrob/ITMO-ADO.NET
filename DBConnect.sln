@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBCommand", "DBCommand\DBCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatasetDesigner", "DatasetDesigner\DatasetDesigner.csproj", "{7AA55F37-1811-4711-BB81-64845595AB2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. CreatingDataTable", "1. CreatingDataTable\1. CreatingDataTable.csproj", "{55DCEBD6-1FA7-4C3D-9EFD-80844E97FA11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingDataTable", "1. CreatingDataTable\CreatingDataTable.csproj", "{55DCEBD6-1FA7-4C3D-9EFD-80844E97FA11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
