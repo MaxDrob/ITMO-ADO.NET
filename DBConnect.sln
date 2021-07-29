@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1500
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1", "Lab_1\Lab_1.csproj", "{53962225-C1E6-4C5E-8C85-373FC4827241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnect", "Lab_1\DBConnect.csproj", "{53962225-C1E6-4C5E-8C85-373FC4827241}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSConnect", "DSConnect\DSConnect.csproj", "{1CFE934B-FCAE-4573-AE81-682A9C10AFFA}"
 EndProject
