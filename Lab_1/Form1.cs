@@ -111,5 +111,66 @@ namespace Lab_1
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (connection.State == ConnectionState.Closed)
+            {
+                MessageBox.Show("Сначала подключитесь к базе");
+                return;
+            }
+            OleDbCommand command = new OleDbCommand();
+            command.Connection = connection;
+            command.CommandText = "SELECT COUNT(*) FROM CustomerDetails.FinancialProducts";
+            int number = (int)command.ExecuteScalar();
+            label23.Text = number.ToString();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            OleDbCommand command = connection.CreateCommand();
+            command.CommandText = "SELECT ProductName FROM Products";
+            OleDbDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                listView1.Items.Add(reader["ProductName"].ToString());
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            OleDbConnection connection = new OleDbConnection(testConnect);
+            connection.Open();
+            OleDbTransaction OleTran = connection.BeginTransaction();
+            OleDbCommand command = connection.CreateCommand();
+            command.Transaction = OleTran;
+            try
+            {
+                command.CommandText =
+              "INSERT INTO Products (ProductName) VALUES('Wrong size')";
+                command.ExecuteNonQuery();
+                command.CommandText =
+               "INSERT INTO Products (ProductName) VALUES('Wrong color')";
+                command.ExecuteNonQuery();
+
+                OleTran.Commit();
+                MessageBox.Show("Both records were written to database");
+            }
+            catch(Exception ex)
+                {
+                MessageBox.Show(ex.Message);
+                try
+                {
+                    OleTran.Rollback();
+                }
+                catch (Exception exRollback)
+                {
+                    MessageBox.Show(exRollback.Message);
+                }
+                {
+                    connection.Close();
+                }
+            }
+        }
     }
 }
