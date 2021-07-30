@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingComplex", "DataB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewExample", "DataGridViewExample\DataGridViewExample.csproj", "{0B893BC9-5A54-44B2-A6C2-B36712CC4404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavingDataSetXml", "SavingDataSetXml\SavingDataSetXml.csproj", "{3A2B7CAC-854C-438A-8F46-F4023464E26C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{0B893BC9-5A54-44B2-A6C2-B36712CC4404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B893BC9-5A54-44B2-A6C2-B36712CC4404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B893BC9-5A54-44B2-A6C2-B36712CC4404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2B7CAC-854C-438A-8F46-F4023464E26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2B7CAC-854C-438A-8F46-F4023464E26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2B7CAC-854C-438A-8F46-F4023464E26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2B7CAC-854C-438A-8F46-F4023464E26C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
