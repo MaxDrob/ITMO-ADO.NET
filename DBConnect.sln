@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingDataTable", "Working
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataViewExample", "DataViewExample\DataViewExample.csproj", "{C284E6E5-5A06-49A0-81CA-4C8C9B641BD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSourcesWizard", "DataSourcesWizard\DataSourcesWizard.csproj", "{D97D1BBE-F93B-4302-9E57-C5BE9439F41A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingSimple", "DataBindingSimple\DataBindingSimple.csproj", "{EC9AB584-1A02-45E1-9B06-390F56914C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{C284E6E5-5A06-49A0-81CA-4C8C9B641BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C284E6E5-5A06-49A0-81CA-4C8C9B641BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C284E6E5-5A06-49A0-81CA-4C8C9B641BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97D1BBE-F93B-4302-9E57-C5BE9439F41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97D1BBE-F93B-4302-9E57-C5BE9439F41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97D1BBE-F93B-4302-9E57-C5BE9439F41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97D1BBE-F93B-4302-9E57-C5BE9439F41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC9AB584-1A02-45E1-9B06-390F56914C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC9AB584-1A02-45E1-9B06-390F56914C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC9AB584-1A02-45E1-9B06-390F56914C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC9AB584-1A02-45E1-9B06-390F56914C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
