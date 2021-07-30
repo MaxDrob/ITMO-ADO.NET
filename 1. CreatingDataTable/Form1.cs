@@ -45,7 +45,7 @@ namespace CreatingDataTable
             try
             {
                 DataRow CustRow = CustomersTable.NewRow();
-                Object[] CustRecord =  {
+                object[] p = {
                     "ALFKI",
                     "Alfreds Futterkiste",
                     "Maria Anders",
@@ -56,7 +56,9 @@ namespace CreatingDataTable
                     "12209",
                     "Germany",
                     "030-0074321",
-                    "030-0076545"};
+                    "030-0076545"
+                };
+                Object[] CustRecord = p;
                 CustRow.ItemArray = CustRecord;
                 CustomersTable.Rows.Add(CustRow);
             }
