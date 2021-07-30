@@ -32,9 +32,9 @@ namespace CreatingDataTable
             CustomersTable.Columns.Add("Country", Type.GetType("System.String"));
             CustomersTable.Columns.Add("Phone", Type.GetType("System.String"));
 
-            //DataColumn[] KeyColumns = new DataColumn[1];
-            //KeyColumns[0] = CustomersTable.Columns["CustomerID"];
-            //CustomersTable.PrimaryKey = KeyColumns;
+            DataColumn[] KeyColumns = new DataColumn[1];
+            KeyColumns[0] = CustomersTable.Columns["CustomerID"];
+            CustomersTable.PrimaryKey = KeyColumns;
 
             CustomersTable.Columns["CustomerID"].AllowDBNull = false;
             CustomersTable.Columns["CompanyName"].AllowDBNull = false;
@@ -52,10 +52,10 @@ namespace CreatingDataTable
                     "Sales Representative",
                     "Obere Str. 57",
                     "Berlin",
-                    //null,
-                    //"12209",
+                    null,
+                    "12209",
                     "Germany",
-                    //"030-0074321",
+                    "030-0074321",
                     "030-0076545"};
                 CustRow.ItemArray = CustRecord;
                 CustomersTable.Rows.Add(CustRow);
