@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("1. CreatingDataTable")]
+[assembly: AssemblyTitle("CodeFirst")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("CreatingDataTable")]
+[assembly: AssemblyProduct("CodeFirst")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("55dcebd6-1fa7-4c3d-9efd-80844e97fa11")]
+[assembly: Guid("7a0e9795-e2e6-4dcb-a334-6abb8630ba65")]
 
 // Version information for an assembly consists of the following four values:
 //

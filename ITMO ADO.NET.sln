@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavingDataSetXml", "SavingD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadDataSetXml", "LoadDataSetXml\LoadDataSetXml.csproj", "{0CFA65E9-4795-40BF-832A-6D8E417DBB45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManager", "CustomerManage\CustomerManager.csproj", "{B2524B93-5FFE-4413-B83E-CD3B6AF9A1E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{7A0E9795-E2E6-4DCB-A334-6ABB8630BA65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{0CFA65E9-4795-40BF-832A-6D8E417DBB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CFA65E9-4795-40BF-832A-6D8E417DBB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CFA65E9-4795-40BF-832A-6D8E417DBB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2524B93-5FFE-4413-B83E-CD3B6AF9A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2524B93-5FFE-4413-B83E-CD3B6AF9A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2524B93-5FFE-4413-B83E-CD3B6AF9A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2524B93-5FFE-4413-B83E-CD3B6AF9A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0E9795-E2E6-4DCB-A334-6ABB8630BA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0E9795-E2E6-4DCB-A334-6ABB8630BA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0E9795-E2E6-4DCB-A334-6ABB8630BA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0E9795-E2E6-4DCB-A334-6ABB8630BA65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
